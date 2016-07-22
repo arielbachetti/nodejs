@@ -9,7 +9,7 @@ version '2.2.0'
 conflicts 'node'
 
 depends 'yum-epel'
-depends 'build-essential'
+depends 'build-essential', '= 3.2.0'
 depends 'ark'
 depends 'apt'
 
